@@ -43,6 +43,32 @@ h2 {
     margin-bottom: 2rem;
 }
 
+
+/* buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white
+}
+
 /* navbar */
 
 #navbar {
@@ -53,12 +79,16 @@ h2 {
     width: 30px;
 }
 
+
 /* header css */
+
 #header .lead {
     font-family: var(--secondary-font);
 }
 
+
 /* services cards */
+
 #services .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
@@ -70,12 +100,15 @@ h2 {
 }
 
 /* game library cards */
+
 #new-games .card,
 #fav-games .card {
     border: none;
 }
 
+
 /* footer / contact */
+
 #contact {
     background-color: var(--primary-color);
     color: white;
@@ -110,6 +143,7 @@ h2 {
     background-color: transparent;
 }
 
+
 /* grid visualisation css for testing */
 
 /* .container,  
@@ -122,6 +156,7 @@ h2 {
     background-color: lightgray;
 } */
 
+
 /* medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     
@@ -130,6 +165,7 @@ h2 {
         min-height: 195px;
     }
 }
+
 
 /* medium devices (tablets, devices 992px and up) */
 @media screen and (min-width: 992px) {
@@ -140,6 +176,7 @@ h2 {
     }
 }
 
+
 /* medium devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     
@@ -148,6 +185,7 @@ h2 {
         min-height: 220px;
     }
 }
+
 
 /* medium devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
