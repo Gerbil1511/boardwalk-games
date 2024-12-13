@@ -2,7 +2,7 @@
 
 # Boardwalk Games
 
-![Boardwalk Games - Project Banner](assets/images/)
+![Boardwalk Games - Project Banner](assets/images/boardwalk-games.png)
 
 
 ## Introduction 
